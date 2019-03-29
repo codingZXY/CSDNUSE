@@ -6,22 +6,15 @@
 import asyncio
 
 import aiofiles
-import aiohttp
 from db.mongohelper import MotorOperation
-from lxml import html
 from logger.log import crawler, storage
-from utils import proxy_helper
-import async_timeout
-from collections import namedtuple, deque
-import datetime
-import hashlib
+
 from copy import copy
 import os
 from common.base_crawler import Crawler
 from types import AsyncGeneratorType
 from decorators.decorators import decorator
-import re
-import math
+
 from urllib.parse import urljoin
 from multidict import CIMultiDict
 
@@ -61,6 +54,7 @@ class Details_Spider(Crawler):
         # 修改种子URL的状态为1表示开始爬取。
         condition = {'url': detail_url}
         await MotorOperation().change_status(condition, status_code=1)
+        await asyncio.sleep(2)
         response = await self.get_session(detail_url, kwargs)
         if response.status == 200:
             source = response.source

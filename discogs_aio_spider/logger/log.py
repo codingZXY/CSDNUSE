@@ -4,7 +4,7 @@ import logging.config as log_conf
 import datetime
 import coloredlogs
 
-log_dir = os.path.dirname(os.path.dirname(__file__)) + '/logger'
+log_dir = os.path.dirname(os.path.dirname(__file__)) + '/logs'
 if not os.path.exists(log_dir):
     os.mkdir(log_dir)
 today = datetime.datetime.now().strftime("%Y%m%d")

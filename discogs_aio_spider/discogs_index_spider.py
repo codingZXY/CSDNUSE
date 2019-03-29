@@ -7,13 +7,9 @@
 import asyncio
 import aiohttp
 from db.mongohelper import MotorOperation
-from lxml import html
 from logger.log import crawler
-from utils import proxy_helper
-import async_timeout
 from collections import namedtuple, deque
 import datetime
-import hashlib
 from common.base_crawler import Crawler
 from types import AsyncGeneratorType
 from decorators.decorators import decorator
@@ -43,7 +39,6 @@ DEFAULT_HEADRS = {
 class Index_Spider(Crawler):
     def __init__(self):
         self.page_pat = "&page=.*&"
-
 
     @decorator()
     async def start(self):
@@ -93,9 +88,9 @@ class Index_Spider(Crawler):
                 dic["obj_id"] = self.xpath(div_node, "@data-object-id")[0]
                 dic["artist"] = self.xpath(div_node, ".//div[@class='card_body']/h4/span/a", "text")[0]
                 dic["title"] = \
-                self.xpath(div_node, ".//div[@class='card_body']/h4/a[@class='search_result_title ']", "text")[0]
+                    self.xpath(div_node, ".//div[@class='card_body']/h4/a[@class='search_result_title ']", "text")[0]
                 _detail_url = \
-                self.xpath(div_node, ".//div[@class='card_body']/h4/a[@class='search_result_title ']", "href")[0]
+                    self.xpath(div_node, ".//div[@class='card_body']/h4/a[@class='search_result_title ']", "href")[0]
                 dic["detail_url"] = urljoin(BASE_URL, _detail_url)
 
                 card_info_xpath = ".//div[@class='card_body']/p[@class='card_info']"

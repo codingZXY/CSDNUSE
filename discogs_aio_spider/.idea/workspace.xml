@@ -1,23 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80e1ceb7-3849-4424-8ca1-53262c2c57bf" name="Default Changelist" comment="" />
+    <list default="true" id="80e1ceb7-3849-4424-8ca1-53262c2c57bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/discogs_aio_spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discogs_aio_spider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/base_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/base_crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_details_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/discogs_details_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1842467-1369582281-1448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1842467-1469185328-3165.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1842467-1469185330-4983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1842467-1483112714-5474.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1842467-1483112765-6143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1404668452-6090.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1404668453-7451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322767-3251.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322776-3005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322797-5971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322812-6512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322813-6898.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322852-4717.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322858-4322.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322860-5074.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322861-6845.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-1909495-1440322874-3715.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-2233440-1271339519.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-2233440-1271339991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1161192812.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1161192840.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1161192861.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1161192882.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1161192917.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1181247571.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1181247579.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1181247588.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1181247599.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1181247607.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1181247616.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1181247624.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-42395-1258602409.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-48517-1224622715.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-48517-1224622732.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-48517-1224622743.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-48517-1542737122-9064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-48517-1542737480-7156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-5984185-1408067094-8379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-9520349-1482000145-9448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-9520349-1482000151-7319.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_images/R-9520349-1482000157-5784.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discogs_index_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/discogs_index_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/proxy_helper.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="149384128">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="8" />
+          <entry key="log" value="1" />
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="8" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/discogs_index_spider.py">
+        <entry file="file://$PROJECT_DIR$/discogs_details_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="30" selection-end-column="8" />
-              <folding>
-                <element signature="e#134#148#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="107">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -25,20 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/base_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1605">
-              <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
-              <folding>
-                <element signature="e#115#129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discogs_details_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -62,6 +132,9 @@
       <replace>discogs_index</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -70,15 +143,19 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/discogs_index_spider.py" />
+        <option value="$PROJECT_DIR$/utils/proxy_helper.py" />
+        <option value="$PROJECT_DIR$/logger/log.py" />
+        <option value="$PROJECT_DIR$/discogs_details_spider.py" />
         <option value="$PROJECT_DIR$/common/base_crawler.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -100,6 +177,11 @@
               <item name="discogs_aio_spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="discogs_aio_spider" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="discogs_aio_spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="discogs_aio_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="logger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="discogs_aio_spider" type="b2602c69:ProjectViewProjectNode" />
@@ -137,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.discogs_index_spider">
+  <component name="RunManager" selected="Python.discogs_details_spider">
     <configuration name="base_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="discogs_aio_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +233,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/base_crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="discogs_details_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="discogs_aio_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discogs_details_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,8 +283,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.base_crawler" />
+      <item itemvalue="Python.discogs_index_spider" />
+      <item itemvalue="Python.discogs_details_spider" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.discogs_details_spider" />
         <item itemvalue="Python.discogs_index_spider" />
         <item itemvalue="Python.base_crawler" />
       </list>
@@ -201,20 +310,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20171674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2015504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286908" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3941504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44011143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -224,22 +332,25 @@
       <window_info anchor="right" id="JSON Viewer" order="3" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/discogs_index_spider.py</url>
-          <line>41</line>
+          <line>37</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/discogs_index_spider.py</url>
-          <line>40</line>
+          <line>36</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/common/base_crawler.py</url>
-          <line>60</line>
+          <line>59</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
@@ -331,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/proxy_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/types.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -359,20 +463,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/-1275068602/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/sxkj/crawler-projet/api_service/venv/lib/python3.6/site-packages/async_timeout/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.3/python_stubs/-1275068602/builtins.py" />
+    <entry file="file://$USER_HOME$/sxkj/crawler-projet/api_service/venv/lib/python3.6/site-packages/async_timeout/__init__.py" />
     <entry file="file://$PROJECT_DIR$/config/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -380,51 +472,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/sxkj/crawler-projet/api_service/venv/lib/python3.6/site-packages/async_retrying.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/sxkj/crawler-projet/api_service/venv/lib/python3.6/site-packages/lxml/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/sxkj/crawler-projet/api_service/venv/lib/python3.6/site-packages/lxml/html/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/sxkj/crawler-projet/api_service/venv/lib/python3.6/site-packages/async_retrying.py" />
+    <entry file="file://$USER_HOME$/sxkj/crawler-projet/api_service/venv/lib/python3.6/site-packages/lxml/__init__.py" />
+    <entry file="file://$USER_HOME$/sxkj/crawler-projet/api_service/venv/lib/python3.6/site-packages/lxml/html/__init__.py" />
     <entry file="file://$PROJECT_DIR$/discogs_index_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="23">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/proxy_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger/discogs20190324.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
           <folding>
-            <element signature="e#134#148#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/base_crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
-          <folding>
-            <element signature="e#115#129#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/discogs_images/R-62824-1097933842.jpg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discogs_images/R-62824-1097933850.jpg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discogs_images/R-247183-1118587102.jpg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discogs_images/R-790300-1159917228.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discogs_images/R-12519270-1536861919-3859.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discogs_images/R-1373456-1379530020-6113.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discogs_images/R-790300-1184519904.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discogs_images/R-62824-1097933858.jpg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/discogs_details_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="107">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>

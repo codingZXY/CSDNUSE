@@ -7,7 +7,6 @@
 import asyncio
 import aiohttp
 from logger.log import crawler
-from utils import proxy_helper
 import async_timeout
 from collections import namedtuple
 from config.config import *
