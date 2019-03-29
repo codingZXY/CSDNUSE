@@ -7,16 +7,8 @@ import os
 import aiohttp
 import asyncio
 
-environment = os.environ.get('APP_ENVIRONMENT', 'development')
-if environment == "development":
-    host = 'http://47.96.170.1:15003'
-elif environment == "production":
-    # host = 'http://10.10.4.3:15003'
-    host = 'http://10.10.4.87:15003'
-elif environment == "test":
-    host = 'http://127.0.0.1:15003'
-else:
-    raise Exception("不正确的environment")
+
+host = 'http://127.0.0.1:15003'
 FAIL_SLEEP_TIME = 0
 # host = 'http://47.96.170.1:15003'
 # host = 'http://10.10.4.3:15003'
